@@ -1,0 +1,43 @@
+body {
+  font-family: 'open sans', sans-serif;
+}
+
+/* --------header----------- */
+
+.header {
+  background-color: #ccc;
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+.header-tel {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.header-btn {
+  font-family: 'open sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+/* ------main-------------- */
+
+/* ---------section hero------------ */
