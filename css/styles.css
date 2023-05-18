@@ -1,11 +1,30 @@
+:root {
+}
+
 body {
   font-family: 'open sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.list{
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+.list {
   list-style: none;
   text-decoration: none;
 }
-.link{
+.link {
   text-decoration: none;
 }
 
@@ -44,8 +63,328 @@ body {
 
   color: #ffffff;
 
+  border-radius: 25px;
+  cursor: pointer;
 }
 
 /* ------main-------------- */
 
+.top-text {
+  text-transform: uppercase;
+}
+
 /* ---------section hero------------ */
+
+.hero {
+  background-color: #555;
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+  color: #303030;
+}
+
+.hero-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.hero-bottom-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}
+
+/* ---------section about------------ */
+
+.about-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+
+  color: #303030;
+}
+
+.about-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+
+.about-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: #555555;
+}
+
+.about-bottom-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+
+  color: #555555;
+}
+
+.about-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: #303030;
+
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* ---------section services------------ */
+
+.services-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.services-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+
+.services-item-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}
+
+.services-btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: #303030;
+
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* ---------section benefits------------ */
+
+.benefits-item-count {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-align: center;
+
+  color: #303030;
+}
+
+.benefits-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  text-transform: uppercase;
+
+  color: #303030;
+}
+
+.benefits-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+
+.benefits-bottom-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+
+  color: #555555;
+}
+
+/* ---------section barbers------------ */
+
+.barbers-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+
+  text-transform: uppercase;
+
+  color: #303030;
+}
+
+.barbers-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: #303030;
+}
+
+.barbers-item-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1, 39;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: #303030;
+}
+
+.barbers-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 36;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: #ff6c00;
+}
+
+/* ---------section portfolio------------ */
+
+.portfolio-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+
+  color: #303030;
+}
+
+/* ---------section online------------ */
+
+.online-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+  background-color: #111;
+}
+
+/* ---------section contacts------------ */
+
+.contacts-title {
+  font-family: 'Raleway', sans-serif;
+
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+  background-color: #111;
+}
+
+.contacts-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}
+
+.contacts-top-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #111;
+}
+
+.contacts-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+
+  color: #9da4bd;
+}
+
+/* ---------footer------------ */
+
+.footer-copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+  color: #9da4bd;
+}
+
+.footer-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+  color: #303030;
+}
